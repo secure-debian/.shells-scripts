@@ -1,12 +1,12 @@
 #!/bin/bash
-# this is used to create,update or delete A *and* AAAA records
+# this is used to create,update or delete A *and* AAAA records DynIp
 # read vars conf file is:
 # DOMAIN=xxx.dedyn.io
 # TOKEN=123456789123456789
 
 
 DIR=~/git/dedyn
-CONF=$DIR/update.conf
+CONF=$DIR/config.file
 # set vars
 source $CONF
 HOSTNAME=`hostname`
